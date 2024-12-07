@@ -1,7 +1,7 @@
 # Uncomment if libraries need to be loaded
 #library(tidyverse)
 #library(BayesFactor)
-#library(patchwork)
+library(patchwork)
 
 #Read data
 #df <- read_csv("data/processed/preprocessed-GARP-TSST-data.csv")
