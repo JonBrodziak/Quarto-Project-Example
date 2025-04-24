@@ -1,0 +1,18 @@
+### ✅ To Render the Report
+
+Once your dev container is up and running:
+
+- In **VS Code**: open `example.qmd`, then click **"Render"**
+- In **RStudio Server** (http://localhost:8787): open the file and click **Render**
+
+Quarto will output an HTML report in the same directory.
+
+---
+
+### 🧩 Tip
+
+If you use GitHub Pages or Netlify, you can deploy this as part of a website by adding `quarto.yml`.
+
+---
+
+Let me know if you'd like to convert this to a full Quarto website, integrate Stan results into the report, or export to PDF!

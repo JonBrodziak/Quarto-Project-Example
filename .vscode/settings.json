@@ -1,0 +1,5 @@
+{
+  "r.path.linux": "/usr/local/bin/R",
+  "r.rterm.linux": "/usr/local/bin/R",
+  "r.alwaysUseActiveTerminal": true
+}
