@@ -29,7 +29,7 @@ A sample of 144 participants underwent the Trier Social Stress Test (TSST), a ps
 
 ## **2. Data Description**
 
-This [Open Science Foundation (OSF)](https://osf.io/6mvq7/) directory contains the raw and processed data described, as well as analysis scripts required to computationally reproduce the results and plots reported in the *related research article*. The structure of the directory\* is:
+This [OSF](https://osf.io/6mvq7/) directory contains the raw and processed data described, as well as analysis scripts required to computationally reproduce the results and plots reported in the *related research article*. The structure of the directory is:
 
 ### Analysis
 
@@ -55,7 +55,7 @@ The CSV file contains choice consistency data for `r nrow(bronars_simulation_dat
 
 The dataset contains data of 144 participants. Participants did not have formal psychological or economic education, were 18--40 years old, non-smokers and did not take medication that could have influenced their corticosteroid levels. Women were not taking oral contraceptives. Similar to previous studies, participants had to refrain from drinking alcohol and sexual activities for 24 h, from caffeine for four hours and from eating/drinking (except water) for two hours prior to the beginning of the experiment.
 
-![The schematic above provides an exact overview of the experimental timeline for each measure we collected. All experimental sessions took place from 3 p.m. to 6 p.m. to control for circadian variations of hormonal levels. Participants were assigned to the two experimental conditions pseudo-randomly.](fig/Fig1.jpg){#fig1-fig1}
+![Figure 1 provides an exact overview of the experimental timeline for each measure we collected. All experimental sessions took place from 3 p.m. to 6 p.m. to control for circadian variations of hormonal levels. Participants were assigned to the two experimental conditions pseudo-randomly.](fig/Fig1.jpg){#fig1-fig1}
 
 Our food-choice task was administered following a 2 × 3 mixed-factorial design with Experimental Group (stress vs. control) as between-subject factor and Measurement (Baseline, Early, Late) as within-subject factor. We deployed a standard food-choice task similar to the one used by @harbaugh2001 and @chung2017. In each trial, participants chose one out of a set of two to seven snack bundles. Each snack bundle consisted of specific amounts of a sweet or salty snack and a fruit or vegetable. The choice set was defined by all integer combinations of sweet or salty snack and fruit or vegetable on the budget-line. The budget-line was given by the following formula:
 
@@ -74,7 +74,7 @@ At the end of the experiment, one trial was randomly selected for each participa
 #| warning: false
 #| results: false 
 #| #| fig-align: left
-#| fig-cap: "Mean heart rate of stress and control groups at baseline and during intervention."
+#| fig-cap: "Figure 2. Mean heart rate of stress and control groups at baseline and during intervention."
 # run the code from HR_analysis.R in the code directory
 source("code/HR_analysis.R")
 # display the plot created by code in HR_analysis.R
@@ -88,7 +88,7 @@ plot
 #| warning: false
 #| results: false
 #| fig-align: left
-#| fig-cap: "Cortisol and amylase levels in stress and control groups."
+#| fig-cap: "Figure 3. Cortisol and amylase levels in stress and control groups."
 # run the code from hormone_analysis.R in the code directory
 source("code/hormone_analysis.R")
 # display the plot created by code in hormone_analysis.R
