@@ -8,12 +8,5 @@ format: html
 
 This is a Quarto document rendered inside a GitHub dev container using the `rocker/verse` image. Below is an R chunk with a plot.
 
-```{r}
-library(ggplot2)
-df <- data.frame(age = 1:10, length = 100 * (1 - exp(-0.2 * (1:10 - 0))))
-ggplot(df, aes(x = age, y = length)) +
-  geom_line() +
-  labs(title = "Von Bertalanffy Growth Curve")
-
----
-
+\`\`\`{r} library(ggplot2) df \<- data.frame(age = 1:10, length = 100 \* (1 - exp(-0.2 \* (1:10 - 0)))) ggplot(df, aes(x = age, y = length)) + geom_line() + labs(title = "Von Bertalanffy Growth Curve") ```
+------------------------------------------------------------------------
